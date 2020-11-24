@@ -96,7 +96,7 @@ var canvas = document.querySelector('.canvas__win')
 			var ani = setInterval(draw,20)
 			setTimeout(function(){
 			clearInterval(ani)
-			},710)
+			},2000)
 		}
 
 		draw()
