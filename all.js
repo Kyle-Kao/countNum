@@ -91,14 +91,12 @@ var canvas = document.querySelector('.canvas__win')
 			text(46,71.25)
 			}
 
-			// 1510/20 =75.5 為跑的秒數 也就是 %數 多預留0.5秒讓他沒誤差
-
 			draw()
 
 			var ani = setInterval(draw,20)
 			setTimeout(function(){
 			clearInterval(ani)
-			},2000)
+			},710)
 		}
 
 		draw()
